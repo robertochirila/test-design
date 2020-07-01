@@ -46,7 +46,7 @@ p {
   color: white;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .wrapper {
     flex-direction: column;
   }
@@ -65,5 +65,11 @@ p {
   }
   .wrapper-grid-2 > div {
     border: none;
+  }
+}
+
+@media only screen and(max-width: 1020px) {
+  .wrapper {
+    flex-direction: column;
   }
 }
