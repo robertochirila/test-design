@@ -1,6 +1,5 @@
 .App {
   height: 100vh;
-  background-color: #000000;
 }
 
 .wrapper {
@@ -11,6 +10,16 @@
   background-color: teal;
   display: grid;
   grid-template-columns: 50% 50%;
+}
+
+.wrapper-grid-2 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-row-gap: 1em;
+}
+
+.wrapper-grid-2 > div {
+  border: 1px solid;
 }
 
 .wrapper-grid > div {
@@ -35,4 +44,26 @@
 }
 p {
   color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .wrapper-box {
+    width: 100%;
+  }
+  .wrapper-box > p {
+    padding: 1rem;
+  }
+
+  .wrapper-grid {
+    grid-template-columns: 100%;
+  }
+  .wrapper-grid-2 {
+    grid-template-columns: 100%;
+  }
+  .wrapper-grid-2 > div {
+    border: none;
+  }
 }
