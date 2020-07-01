@@ -9,49 +9,49 @@ function App() {
           <div className="wrapper-box">
             <p>First Cool Paragraph</p>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
           </div>
           <div className="wrapper-box">
             <p>Second Cool Paragraph</p>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
           </div>
           <div className="wrapper-box">
             <p>Third Cool Paragraph</p>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
           </div>
           <div className="wrapper-box">
             <p>Forth Cool Paragraph</p>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
             <div className="wrapper-column">
-              <p>Column Paragraph</p>
+              <p className="column-paragraph">Column Paragraph</p>
             </div>
           </div>
         </div>
