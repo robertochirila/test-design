@@ -9,22 +9,18 @@ class App extends React.Component {
       flag: false,
     };
   }
-  handleIncrement = () => {
+  componentDidMount() {
     const { step, flag } = this.state;
-    console.log(step);
-    if (step === 4) {
-      this.setState({ step: 0, flag: false });
-    }
-    setInterval(() => {
-      console.log("inside async function");
-      this.setState({ step: step + 1, flag: true });
-    }, 3000);
-  };
+    console.log("here");
+    this.interval = setInterval(() => this.setState({ step: step + 1 }), 2000);
+  }
+  componentWillUnmount() {
+    //learInterval(this.interval);
+  }
+
   render() {
-    const { step, flag } = this.state;
-    if (!flag) {
-      this.handleIncrement();
-    }
+    const { step } = this.state;
+
     switch (step) {
       case 1:
         return (
