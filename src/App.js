@@ -12,7 +12,9 @@ class App extends React.Component {
   componentDidMount() {
     const { step, flag } = this.state;
     console.log("here");
+
     this.interval = setInterval(() => this.setState({ step: step + 1 }), 2000);
+    console.log(this.interval);
   }
   componentWillUnmount() {
     clearInterval(this.interval);
