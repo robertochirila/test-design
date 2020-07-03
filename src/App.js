@@ -15,7 +15,7 @@ class App extends React.Component {
     this.interval = setInterval(() => this.setState({ step: step + 1 }), 2000);
   }
   componentWillUnmount() {
-    //learInterval(this.interval);
+    clearInterval(this.interval);
   }
 
   render() {
